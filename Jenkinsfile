@@ -15,6 +15,6 @@ pipeline {
                         sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=my_first_project_key"
                     }
                 }
-            
+            }
         }
-}
+}}
